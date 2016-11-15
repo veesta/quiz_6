@@ -1,0 +1,21 @@
+---
+title: "Multiple Regression Quiz"
+author: "Veesta Mavandadi"
+date: "November 15, 2016"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+#Does self-esteem predict unique variance in asuc above and beyond pas. 
+
+Self-esteem accounted for 22% of the variance in academic success above and beyond positive affectivity alone, $sr^2$=.22, 95% CI[.12,.33]. When considering self-esteem alone, the total variance accounted for was 25%, $R^2$=.25, 95% CI[.15,.35]. However, when considering both predictors together, the total percentage variance accounted for increased to 32%, $R^2$=.32, 95% CI[.21,.41]. As a result, self-esteem did contribute to the prediction of academic success above and beyond that of only positive affectivity.  
+
+#Does self-esteem predict academic success above and beyond nas. 
+Self-esteem accounted for additional 23% of the variance in job performance ratings beyond negative affectivity alone, $sr^2$=.23, 95% CI[.12,.33]. When considering self-esteem alone, the total variance accounted for was 26%, R2=.26, 95% CI[.20,.32]. However, when considering both predictors together, the total percentage variance accounted for increased to 28%, $R^2$=.28, 95% CI[.17,.37]. As a result, self-esteem ratings do contribute to the prediction of academic success beyond that of only negative affectivity.
+
+#Extent to which self esteem predicts uniqe variance in academic success above and beyond NAS and PAS
+
+The inclusion of self-esteem accounted for an additional 21% of the variance in academic success positive and negative affectivity alone, $\Delta R^2$=.21, 95% CI[.11,.31]. When considering NAS and PAS alone, they accounted for 12% of the total variance in academic success, $R^2$=.12, 95% CI[.04,.20]. However, when considering self-esteem in this model, the total percentage variance accounted for increased to 33%, $R^2$=.33, 95% CI[.21,.42]. As a result, self-esteem does contribute to the prediction of academic success beyond that of only negative and positive affectivity. 
